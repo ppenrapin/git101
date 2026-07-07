@@ -39,3 +39,22 @@ git log : ดูประวัติการ Commit ย้อนหลัง
 git remote -v : ดูว่าเครื่องเราเชื่อมกับ GitHub URL ไหนอยู่
 
 git reset --hard : ยกเลิกการแก้ไขทั้งหมดและย้อนกลับไปจุดล่าสุด
+-------------------------
+#####  Notebook git 101
+สร้าง 
+echo "# git101" >> README.md
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/ppenrapin/git101.git
+git push -u origin main
+------------------
+git remote add origin https://github.com/ppenrapin/git101.git
+git branch -M main
+git push -u origin main
+
+------------ add file ขั้นเป็น ตัวอย่างนี้ คื อ main.py
+git add .
+git commit -m "1"
+git push
